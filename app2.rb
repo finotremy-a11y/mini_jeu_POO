@@ -16,8 +16,8 @@ user_name = gets.chomp
 user = HumanPlayer.new(user_name)
 
 #creer les ennemis
-player1 = Player.new("Flora")
-player2 = Player.new("Alessia")
+player1 = Player.new("Jose")
+player2 = Player.new("Josiane")
 enemies = [player1, player2]
 
 #boucle de combat et affichage des constantes :
